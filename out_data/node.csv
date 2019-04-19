@@ -1,100 +1,100 @@
-Id,Label,timeset,lable,weight,clustering,triangles,modularity_class
-1009610,Spider-Man,,Spider-Man,5192,0.712015,3046,1
-1009726,X-Men,,X-Men,4551,0.72043,3082,0
-1009368,Iron Man,,Iron Man,3483,0.726469,3041,1
-1009220,Captain America,,Captain America,3206,0.752298,2946,1
-1009718,Wolverine,,Wolverine,3105,0.729575,3054,0
-1009664,Thor,,Thor,2460,0.883871,411,1
-1009165,Avengers,,Avengers,2427,0.739194,3027,1
-1009351,Hulk,,Hulk,2318,0.719414,2946,1
-1009299,Fantastic Four,,Fantastic Four,2119,0.76506,2667,2
-1009356,Human Torch,,Human Torch,1631,0.81962,2590,2
-1009262,Daredevil,,Daredevil,1782,0.796203,2516,1
-1009662,Thing,,Thing,1103,0.785714,2739,2
-1009257,Cyclops,,Cyclops,1035,0.785714,2805,0
-1009268,Deadpool,,Deadpool,922,0.796842,2271,0
-1009282,Doctor Strange,,Doctor Strange,976,0.757592,2769,1
-1009629,Storm,,Storm,944,0.79665,2711,0
-1009366,Invisible Woman,,Invisible Woman,901,0.816358,2645,2
-1009175,Beast,,Beast,877,0.768244,2874,0
-1009243,Colossus,,Colossus,824,0.80981,2559,0
-1009515,Punisher,,Punisher,799,0.810642,2072,1
-1009187,Black Panther,,Black Panther,777,0.808179,2490,1
-1010791,Sub-Mariner,,Sub-Mariner,704,0.823109,2536,1
-1009459,Mr. Fantastic,,Mr. Fantastic,747,0.800662,2659,2
-1009546,Rogue,,Rogue,725,0.834136,2253,0
-1009472,Nightcrawler,,Nightcrawler,709,0.827368,2358,0
-1009592,Silver Surfer,,Silver Surfer,691,0.783333,2538,2
-1009338,Hawkeye,,Hawkeye,639,0.781076,2658,1
-1009362,Iceman,,Iceman,614,0.802532,2536,0
-1009159,Archangel,,Archangel,600,0.809802,2495,0
-1009697,Vision,,Vision,598,0.819215,2524,1
-1009313,Gambit,,Gambit,562,0.828108,2298,0
-1009214,Cable,,Cable,566,0.807243,2006,0
-1009562,Scarlet Witch,,Scarlet Witch,559,0.823148,2667,1
-1009471,Nick Fury,,Nick Fury,553,0.761625,2719,1
-1009189,Black Widow,,Black Widow,546,0.788608,2492,1
-1010338,Captain Marvel (Carol Danvers),,Captain Marvel (Carol Danvers),543,0.794941,2640,1
-1009583,She-Hulk (Jennifer Walters),,She-Hulk (Jennifer Walters),493,0.795521,2451,1
-1009724,X-Force,,X-Force,481,0.86727,1150,0
-1009512,Psylocke,,Psylocke,466,0.81193,2314,0
-1010852,Two-Gun Kid,,Two-Gun Kid,459,1,1,3
-1009707,Wasp,,Wasp,448,0.84386,2405,1
-1009281,Doctor Doom,,Doctor Doom,436,0.796914,2582,2
-1009417,Magneto,,Magneto,435,0.828172,2487,0
-1009708,Mary Jane Watson,,Mary Jane Watson,411,0.831591,716,1
-1011336,New Mutants,,New Mutants,404,0.897436,700,0
-1009407,Loki,,Loki,411,0.805164,2058,1
-1009504,Professor X,,Professor X,407,0.805965,2297,0
-1009310,Emma Frost,,Emma Frost,410,0.850704,2114,0
-1009367,Iron Fist (Danny Rand),,Iron Fist (Danny Rand),369,0.84623,1706,1
-1010360,Thunderbolts,,Thunderbolts,378,0.917989,347,1
-1009318,Ghost Rider (Johnny Blaze),,Ghost Rider (Johnny Blaze),381,0.819672,1550,1
-1009215,Luke Cage,,Luke Cage,363,0.848077,1764,1
-1009524,Quicksilver,,Quicksilver,366,0.812963,2634,1
-1010892,Rawhide Kid,,Rawhide Kid,375,1,1,3
-1010370,Alpha Flight,,Alpha Flight,367,0.907143,1397,1
-1009337,Havok,,Havok,347,0.859087,1957,0
-1011010,Spider-Man (Ultimate),,Spider-Man (Ultimate),331,0.733333,33,1
-1009182,Bishop,,Bishop,334,0.892361,1799,0
-1011490,Hank Pym,,Hank Pym,321,0.843114,2155,1
-1009508,Kitty Pryde,,Kitty Pryde,318,0.790167,1800,0
-1009466,Namor,,Namor,319,0.803604,2230,2
-1011299,Guardians of the Galaxy,,Guardians of the Galaxy,310,0.834413,902,1
-1009219,Cannonball,,Cannonball,308,0.828797,1888,0
-1009719,Wonder Man,,Wonder Man,301,0.861698,2081,1
-1011109,X-Men (Ultimate),,X-Men (Ultimate),287,0.807018,138,0
-1009554,Sabretooth,,Sabretooth,295,0.881901,1262,0
-1009372,J. Jonah Jameson,,J. Jonah Jameson,297,0.792941,1011,1
-1009499,Polaris,,Polaris,276,0.892896,1634,0
-1009343,Hercules,,Hercules,288,0.845129,2221,1
-1009277,Domino,,Domino,295,0.849883,1823,0
-1009452,Moon Knight,,Moon Knight,285,0.846448,1549,1
-1009389,Kingpin,,Kingpin,280,0.841883,1592,1
-1010894,Millie the Model,,Millie the Model,215,0,0,4
-1009609,Spider-Girl (May Parker),,Spider-Girl (May Parker),279,0.885886,590,1
-1009224,Captain Marvel (Mar-Vell),,Captain Marvel (Mar-Vell),276,0.841089,1916,1
-1010771,Excalibur,,Excalibur,280,0.942529,410,0
-1009652,Thanos,,Thanos,265,0.874669,1654,1
-1009288,Elektra,,Elektra,262,0.894737,1428,1
-1009381,Jubilee,,Jubilee,254,0.883092,914,0
-1009365,Inhumans,,Inhumans,250,0.847744,1353,2
-1009480,Odin,,Odin,245,0.868024,1151,1
-1009267,Dazzler,,Dazzler,249,0.82496,1560,0
-1010738,X-Factor,,X-Factor,234,0.853695,1132,0
-1009705,Warpath,,Warpath,249,0.910569,784,0
-1011023,Defenders,,Defenders,246,0.955645,474,1
-1009379,Rick Jones,,Rick Jones,237,0.905142,1021,1
-1009477,Nova,,Nova,233,0.819462,1979,1
-1009608,Spider-Woman (Jessica Drew),,Spider-Woman (Jessica Drew),227,0.813462,1692,1
-1009312,Galactus,,Galactus,225,0.864583,1743,2
-1009327,Jean Grey,,Jean Grey,225,0.786076,2484,0
-1016181,Spider-Man (Miles Morales),,Spider-Man (Miles Morales),221,0.805042,479,1
-1009382,Juggernaut,,Juggernaut,206,0.83354,2013,0
-1010373,Howard The Duck,,Howard The Duck,217,0.87619,92,1
-1009297,Falcon,,Falcon,208,0.882232,1723,1
-1009638,Sunspot,,Sunspot,215,0.856174,1893,0
-1009325,Norman Osborn,,Norman Osborn,204,0.849974,1660,1
-1009577,Shang-Chi,,Shang-Chi,210,0.889744,694,1
-1009722,X-23,,X-23,208,0.852041,1002,0
-1010354,Adam Warlock,,Adam Warlock,209,0.811189,2436,1
+Id,Label,timeset,lable,weight,modularity_class
+1009610,Spider-Man,,Spider-Man,5192,1
+1009726,X-Men,,X-Men,4551,0
+1009368,Iron Man,,Iron Man,3483,1
+1009220,Captain America,,Captain America,3206,1
+1009718,Wolverine,,Wolverine,3105,0
+1009664,Thor,,Thor,2460,1
+1009165,Avengers,,Avengers,2427,1
+1009351,Hulk,,Hulk,2318,1
+1009299,Fantastic Four,,Fantastic Four,2119,2
+1009356,Human Torch,,Human Torch,1631,2
+1009262,Daredevil,,Daredevil,1782,1
+1009662,Thing,,Thing,1103,2
+1009257,Cyclops,,Cyclops,1035,0
+1009268,Deadpool,,Deadpool,922,0
+1009282,Doctor Strange,,Doctor Strange,976,1
+1009629,Storm,,Storm,944,0
+1009366,Invisible Woman,,Invisible Woman,901,2
+1009175,Beast,,Beast,877,0
+1009243,Colossus,,Colossus,824,0
+1009515,Punisher,,Punisher,799,1
+1009187,Black Panther,,Black Panther,777,1
+1010791,Sub-Mariner,,Sub-Mariner,704,1
+1009459,Mr. Fantastic,,Mr. Fantastic,747,2
+1009546,Rogue,,Rogue,725,0
+1009472,Nightcrawler,,Nightcrawler,709,0
+1009592,Silver Surfer,,Silver Surfer,691,2
+1009338,Hawkeye,,Hawkeye,639,1
+1009362,Iceman,,Iceman,614,0
+1009159,Archangel,,Archangel,600,0
+1009697,Vision,,Vision,598,1
+1009313,Gambit,,Gambit,562,0
+1009214,Cable,,Cable,566,0
+1009562,Scarlet Witch,,Scarlet Witch,559,1
+1009471,Nick Fury,,Nick Fury,553,1
+1009189,Black Widow,,Black Widow,546,1
+1010338,Captain Marvel (Carol Danvers),,Captain Marvel (Carol Danvers),543,1
+1009583,She-Hulk (Jennifer Walters),,She-Hulk (Jennifer Walters),493,1
+1009724,X-Force,,X-Force,481,0
+1009512,Psylocke,,Psylocke,466,0
+1010852,Two-Gun Kid,,Two-Gun Kid,459,3
+1009707,Wasp,,Wasp,448,1
+1009281,Doctor Doom,,Doctor Doom,436,2
+1009417,Magneto,,Magneto,435,0
+1009708,Mary Jane Watson,,Mary Jane Watson,411,1
+1011336,New Mutants,,New Mutants,404,0
+1009407,Loki,,Loki,411,1
+1009504,Professor X,,Professor X,407,0
+1009310,Emma Frost,,Emma Frost,410,0
+1009367,Iron Fist (Danny Rand),,Iron Fist (Danny Rand),369,1
+1010360,Thunderbolts,,Thunderbolts,378,1
+1009318,Ghost Rider (Johnny Blaze),,Ghost Rider (Johnny Blaze),381,1
+1009215,Luke Cage,,Luke Cage,363,1
+1009524,Quicksilver,,Quicksilver,366,1
+1010892,Rawhide Kid,,Rawhide Kid,375,3
+1010370,Alpha Flight,,Alpha Flight,367,1
+1009337,Havok,,Havok,347,0
+1011010,Spider-Man (Ultimate),,Spider-Man (Ultimate),331,1
+1009182,Bishop,,Bishop,334,0
+1011490,Hank Pym,,Hank Pym,321,1
+1009508,Kitty Pryde,,Kitty Pryde,318,0
+1009466,Namor,,Namor,319,2
+1011299,Guardians of the Galaxy,,Guardians of the Galaxy,310,1
+1009219,Cannonball,,Cannonball,308,0
+1009719,Wonder Man,,Wonder Man,301,1
+1011109,X-Men (Ultimate),,X-Men (Ultimate),287,0
+1009554,Sabretooth,,Sabretooth,295,0
+1009372,J. Jonah Jameson,,J. Jonah Jameson,297,1
+1009499,Polaris,,Polaris,276,0
+1009343,Hercules,,Hercules,288,1
+1009277,Domino,,Domino,295,0
+1009452,Moon Knight,,Moon Knight,285,1
+1009389,Kingpin,,Kingpin,280,1
+1010894,Millie the Model,,Millie the Model,215,4
+1009609,Spider-Girl (May Parker),,Spider-Girl (May Parker),279,1
+1009224,Captain Marvel (Mar-Vell),,Captain Marvel (Mar-Vell),276,1
+1010771,Excalibur,,Excalibur,280,0
+1009652,Thanos,,Thanos,265,1
+1009288,Elektra,,Elektra,262,1
+1009381,Jubilee,,Jubilee,254,0
+1009365,Inhumans,,Inhumans,250,2
+1009480,Odin,,Odin,245,1
+1009267,Dazzler,,Dazzler,249,0
+1010738,X-Factor,,X-Factor,234,0
+1009705,Warpath,,Warpath,249,0
+1011023,Defenders,,Defenders,246,1
+1009379,Rick Jones,,Rick Jones,237,1
+1009477,Nova,,Nova,233,1
+1009608,Spider-Woman (Jessica Drew),,Spider-Woman (Jessica Drew),227,1
+1009312,Galactus,,Galactus,225,2
+1009327,Jean Grey,,Jean Grey,225,0
+1016181,Spider-Man (Miles Morales),,Spider-Man (Miles Morales),221,1
+1009382,Juggernaut,,Juggernaut,206,0
+1010373,Howard The Duck,,Howard The Duck,217,1
+1009297,Falcon,,Falcon,208,1
+1009638,Sunspot,,Sunspot,215,0
+1009325,Norman Osborn,,Norman Osborn,204,1
+1009577,Shang-Chi,,Shang-Chi,210,1
+1009722,X-23,,X-23,208,0
+1010354,Adam Warlock,,Adam Warlock,209,1
