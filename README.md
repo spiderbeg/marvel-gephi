@@ -29,11 +29,11 @@
 
 节点数据：
 
-![node](id-lable-w.png)
+![node](pic/id-lable-w.png)
 
 边数据：
 
-![edge](s-t-w.png)
+![edge](pic/s-t-w.png)
 
 ## 一些小提议
 > 记得去官网申请一下密钥，地址在这：<https://developer.marvel.com>。
@@ -42,9 +42,9 @@
 > 效果图：
 
 36：
-![36](zn36.svg)
+![36](pic/zn36.svg)
 100:
-![100](100.svg)
+![100](pic/100.svg)
 
 
 
