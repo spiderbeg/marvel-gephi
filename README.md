@@ -38,6 +38,9 @@ b 由store_stories()抓取的故事文件可发现时间抓取故事数与前文
 c 最后就是边文件的获得，内容是两两角色id及相关联的故事数。
 > ![edge](pic/s-t-w.png)
 
+先来一张gephi生成的图片
+36：
+![36](pic/zn36.svg)
 ## gephi使用
 * 查看官方新手文档<https://gephi.org/users/quick-start/>。
 * 本次使用输入gephi文档：inode.csv,iedge.csv;格式：
@@ -56,11 +59,11 @@ c 最后就是边文件的获得，内容是两两角色id及相关联的故事�
 
 > ![look](pic/look.png)
 
-layout（布局）设置：
+layout（布局）设置--布局算法选择：Fruchterman Reingold：
 
 > ![layout](pic/layout.png)
 
-统计部分：
+统计部分-点击运行模块化：
 
 > ![statistic](pic/statistic.png)
 ## 一些小提议
@@ -68,11 +71,14 @@ layout（布局）设置：
 > 注意官网说的速率是一天3000次，基本上也是足够了，但是注意marvel官网好像是美国时间，具体的时间不清楚，我们可能和这个接口的更新时间需要倒时差。
 > 最后，有问题敬请指出；大家玩的愉快。
 > 效果图：
-
+25：
+![25](pic/h25.svg)
 36：
 ![36](pic/zn36.svg)
-100:
-![100](pic/100.svg)
+99:
+![99](pic/h99.svg)
+![99](pic/99.svg)
+
 
 
 
