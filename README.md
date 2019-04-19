@@ -25,7 +25,7 @@
 * marvel_gephi.py:代码文件
   * 代码解释见代码内注释。
 * pic文件夹为一些图片，包括最后的效果图
-* in_data为输入的node与edge文件，out_data是我操作完gephi的文件。
+* in_data为输入的node（节点）与edge（边）文件，out_data是我操作完gephi的文件。
 * 抓取步骤(建议抓取前先抓取页面进行分析，再决定抓取策略),对于后面要使用的gephi来说我们就需要一个节点文件与一个边文件；
 > 1、获取marvel英雄所有角色（共1491个）：store.charac(); 生成节点文件：node()
 > > 1.1 官网<https://developer.marvel.com/>注册后，显示限制抓取速率3000/day。<br>
@@ -37,7 +37,7 @@
 > > > a 可能因为网络等问题不能一次抓取成功，这时就需要输出错误信息；首先将每一位角色信息争取抓完，抓取不完就将 角色id与当前抓取次数 保存在本地文件中，然后再根据log文件手动抓取，存入数据库。<br>
 b 由store_stories()抓取的故事文件可发现时间抓取故事数与前文store_charac()抓取数目不一样,以实际抓取为准，更新节点文件相关的故事数。<br>
 > ![node](pic/id-lable-w.png)
-c 最后就是边文件的获得，内容是两两角色id及相关联的故事数。
+c 最后就是边文件的获得，内容是两两角色id及相关联的故事数。<br>
 > ![edge](pic/s-t-w.png)
 
 先来一张gephi生成的图片
@@ -46,6 +46,17 @@ c 最后就是边文件的获得，内容是两两角色id及相关联的故事�
 ## gephi使用
 * 查看官方新手文档<https://gephi.org/users/quick-start/>。
 * 本次使用输入gephi文档：inode.csv,iedge.csv;格式：
+* 步骤：
+> 1、从文件-打开文件中导入节点文件与边文件，注意导入边表格时，选择添加到已存在的工作空间-Append to existing workspace <br>
+> 2、布局算法选择-Fruchterman Reingold <br>
+> 3、统计中-点击运行模块化<br>
+> 4、外观中-
+> > 4.1 节点 + 颜色 -- Partition -- Modularity Class：利用刚刚的模块化数据进行分类<br>
+> > 4.2 节点 + 大小 -- Ranking -- Weight: 使用传入的weight（故事数）决定节点大小<br>
+> > 4.3 数据资料 -- 数据表格 -- 复制数据到其它列 ：将 name列复制到 Label列
+> > 4.4 点击 T 即可显示标签<br>
+> ![overview](pic/over.png)
+> > 4.5 当然还有过滤，统计，预览这些功能，就由大家慢慢探索了。
 
 节点数据：
 
