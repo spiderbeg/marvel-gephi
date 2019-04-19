@@ -25,7 +25,16 @@
   * 代码解释见代码内注释。
 ## gephi使用
 * 查看官方新手文档<https://gephi.org/users/quick-start/>。
-* 本次使用输入gephi文档格式
+* 本次使用输入gephi文档格式：
+
+节点数据：
+
+![node](id-lable-w.png)
+
+边数据：
+
+![edge](s-t-w.png)
+
 ## 一些小提议
 > 记得去官网申请一下密钥，地址在这：<https://developer.marvel.com>。
 > 注意官网说的速率是一天3000次，基本上也是足够了，但是注意marvel官网好像是美国时间，具体的时间不清楚，我们可能和这个接口的更新时间需要倒时差。
