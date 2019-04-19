@@ -24,6 +24,8 @@
 ## 文件说明
 * marvel_gephi.py:代码文件
   * 代码解释见代码内注释。
+* pic文件夹为一些图片，包括最后的效果图
+* in_data为输入的node与edge文件，out_data是我操作完gephi的文件。
 * 抓取步骤(建议抓取前先抓取页面进行分析，再决定抓取策略),对于后面要使用的gephi来说我们就需要一个节点文件与一个边文件；
 > 1、获取marvel英雄所有角色（共1491个）：store.charac(); 生成节点文件：node()
 > > 1.1 官网<https://developer.marvel.com/>注册后，显示限制抓取速率3000/day。<br>
