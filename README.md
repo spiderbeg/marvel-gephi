@@ -39,7 +39,7 @@ c 最后就是边文件的获得，内容是两两角色id及相关联的故事�
 > ![edge](pic/s-t-w.png)
 
 先来一张gephi生成的图片
-36：
+后面更精彩：
 ![36](pic/zn36.svg)
 ## gephi使用
 * 查看官方新手文档<https://gephi.org/users/quick-start/>。
@@ -55,7 +55,7 @@ c 最后就是边文件的获得，内容是两两角色id及相关联的故事�
 
 * 部分gephi设置
 
-外观设置：
+外观设置--当在统计处 点击运行模块化后，此处出现- Modularity Class：
 
 > ![look](pic/look.png)
 
@@ -77,7 +77,7 @@ layout（布局）设置--布局算法选择：Fruchterman Reingold：
 ![36](pic/zn36.svg)
 99:
 ![99](pic/h99.svg)
-![99](pic/99.svg)
+![99](pic/100.svg)
 
 
 
