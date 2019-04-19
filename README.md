@@ -56,6 +56,8 @@ c 最后就是边文件的获得，内容是两两角色id及相关联的故事�
 > > 4.3 数据资料 -- 数据表格 -- 复制数据到其它列 ：将 name列复制到 Label列
 > > 4.4 点击 T 即可显示标签<br>
 > ![overview](pic/over.png)
+> ![data](pic/data.png)
+> ![preview](pic/preview.png)
 > > 4.5 当然还有过滤，统计，预览这些功能，就由大家慢慢探索了。
 
 节点数据：
