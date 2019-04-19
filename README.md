@@ -39,11 +39,11 @@
 
 外观设置：
 
-![look](look.png)
+![look](pic/look.png)
 
 layout（布局）设置：
 
-![layout](layout.png)
+![layout](pic/layout.png)
 
 统计部分：
 
