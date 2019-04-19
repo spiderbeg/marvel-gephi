@@ -242,8 +242,8 @@ class Marvel_gephi(object):
         print('存储结束')
 
 
-PUBLIC_KEY = '7733c6d755ddac6603ea81d0912f5ac6'
-PRIVATE_KEY = '646850ee77656390b794e7362b18d09151491771'
+PUBLIC_KEY = 'YOUR PUBLIC_KEY'
+PRIVATE_KEY = 'YOUR PRIVATE_KEY'
 mar = Marvel_gephi(PUBLIC_KEY,PRIVATE_KEY)
 
 # mar.store_charac('characters1')#存储人物数据
@@ -254,6 +254,5 @@ mar = Marvel_gephi(PUBLIC_KEY,PRIVATE_KEY)
 # print('故事存储完毕，请检查log文件')
 # mar.update_charac('stories')#更新故事数
 # print('人物故事更新完成')
-mar.edge('stories1')#生成边数据
-print('边数据完成')
-# mar.get_ready('test')
+# mar.edge('stories1')#生成边数据
+# print('边数据完成')
