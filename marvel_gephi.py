@@ -4,7 +4,6 @@ from marvel import exceptions
 import pymongo
 import time
 import csv
-import codecs
 
 class Marvel_gephi(object):
     '''use marvel, get name id, stories's count'''
@@ -77,7 +76,7 @@ class Marvel_gephi(object):
         self.get_ready(ch)#'characters'
         characters = []
         headers = ['id','name', 'weight']#故事数量weight,角色名,id ：[1009610, 'Spider-Man', 5478]
-        with codecs.open(self.path_c, 'w', 'utf8') as f:
+        with open(self.path_c, 'w', encoding='utf8') as f:
                 f_csv = csv.writer(f)
                 f_csv.writerow(headers)
         for q in mycol.find():
@@ -85,7 +84,7 @@ class Marvel_gephi(object):
         characters.sort(key=lambda x:x[2], reverse=True) #以相关故事数量降序排列 
         m1 = characters[0:99]#挑选故事数量前99的英雄进行分析
         for m in m1: #将前100存储起来
-            with codecs.open(self.path_c, 'ab+', 'utf8') as f:
+            with open(self.path_c, 'ab+', encoding='utf8') as f:
                 f_csv = csv.writer(f)
                 f_csv.writerow(m)
     
@@ -97,7 +96,7 @@ class Marvel_gephi(object):
         stories = m.stories
         #从存入的文件中读取数据
         m1 = []
-        with codecs.open(self.path_c, 'r', 'utf8') as f:
+        with open(self.path_c, 'r', encoding='utf8') as f:
             f_csv = csv.reader(f)
             for r in f:
                 m1.append(r.split(',')[0:3])
@@ -147,7 +146,7 @@ class Marvel_gephi(object):
                 b += 1
                 print('try,times:',b)
             if slog: #log输出  
-                with codecs.open(self.path_log, 'a+', 'utf8') as f:
+                with open(self.path_log, 'a+', encoding='utf8') as f:
                     f.write(str(nameid))
                     f.write(str(slog))
                     f.write('\n')
@@ -171,12 +170,12 @@ class Marvel_gephi(object):
         stories = m.stories
         counts1 = []
         headers = ['nameid','stories_c']#故事id,name1id,name2id
-        with codecs.open(self.path_up, 'w', 'utf8') as f:
+        with open(self.path_up, 'w', encoding='utf8') as f:
                 f_csv = csv.writer(f)
                 f_csv.writerow(headers)
         #从存入的文件中读取数据
         m1 = []
-        with codecs.open(self.path_c, 'r', 'utf8') as f:
+        with open(self.path_c, 'r', encoding='utf8') as f:
             f_csv = csv.reader(f)
             for r in f:
                 m1.append(r.split(',')[0:3])
@@ -189,7 +188,7 @@ class Marvel_gephi(object):
             counts1 = [nameid[0],all_stories_count['data']['total']] #更新故事数
             c += 1
             print(c)
-            with codecs.open(self.path_up, 'ab+', 'utf8') as f:
+            with open(self.path_up, 'ab+', encoding='utf8') as f:
                         f_csv = csv.writer(f)
                         f_csv.writerow(counts1)
 
@@ -200,7 +199,7 @@ class Marvel_gephi(object):
         #csv文件生成，第二个edge文件生成
         dicn_stories = {} #存储故事id元组
         headers = ['source','target','weight']#name1id,name2id，同在一个故事的数量
-        with codecs.open(self.path_edg, 'w', 'utf8') as f:
+        with open(self.path_edg, 'w', encoding='utf8') as f:
                 f_csv = csv.writer(f)
                 f_csv.writerow(headers)
         print('开始id和故事存储')
@@ -221,7 +220,7 @@ class Marvel_gephi(object):
         print('存储完毕。开始获取两两角色相关数据')
         #从存入的节点文件中读取id数据
         m1 = []
-        with codecs.open(self.path_c, 'r', 'utf8') as f:
+        with open(self.path_c, 'r', encoding='utf8') as f:
             f_csv = csv.reader(f)
             for r in f:
                 m1.append(r.split(',')[0:3])
@@ -236,7 +235,7 @@ class Marvel_gephi(object):
                     count = len(pre & nex)
                     if count > 0:
                         m2 = [chaid[0],chaid2[0],count]
-                        with codecs.open(self.path_edg, 'ab+', 'utf8') as f:
+                        with open(self.path_edg, 'ab+', encoding='utf8') as f:
                             f_csv = csv.writer(f)
                             f_csv.writerow(m2)
         print('存储结束')
