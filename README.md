@@ -81,7 +81,7 @@
 
 * 部分gephi设置
 
-   1 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
+  1 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
 
  ![look](pic/look.png)
 
