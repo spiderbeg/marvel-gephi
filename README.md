@@ -1,6 +1,6 @@
 # marvel-gephi
 ## 项目内容  
-调用 marvel API获取 marvel 英雄 id，及与英雄相关的故事数，并储存在 mongodb 数据库中；生成 gephi 所需文件（这里以 csv 文件为例）；使用 gephi 生成英雄关系图谱。
+调用 marvel API 获取 marvel 英雄 id，及与英雄相关的故事数，并储存在 mongodb 数据库中；生成 gephi 所需文件（这里以 csv 文件为例）；使用 gephi 生成英雄关系图谱。
 ## 项目思路
 1. 使用第三方库 marvel，获取 marvel 所有英雄，并根据与英雄相关故事数排序。<br>
     1.1 marvel 库<https://pypi.org/project/marvel/> 将官方 API <https://developer.marvel.com/docs>进行了封装，更方便使用，当然密钥还是要自己去官网申请的；<br>
@@ -56,13 +56,13 @@
 * 本次使用输入 gephi 文档：inode.csv, iedge.csv;
 * 步骤：
   1.  从【文件】-->【打开文件】中导入节点文件与边文件，注意导入边表格时，选择添加到【已存在的工作空间】（Append to existing workspace） 。<br>
-  2. 【布局】-->【选择一个布局】-->【Fruchterman Reingold】 ，进行相关算法运算。<br>
-  3. 【统计】-->点击【运行模块化】<br>
-  4. 【外观】<br>
-     4.1 【节点】+【颜色】-->【Partition】-->【Modularity Class】：利用刚刚的模块化数据进行分类。<br>
-     4.2 【节点】+【大小】-->【Ranking】-->【Weight】: 使用传入的 weight（故事数）决定节点大小。<br>
-     4.3 【数据资料】-->【数据表格】-->【复制数据到其它列】：将 name 列复制到 Label 列。<br>
-     4.4 点击【T】即可显示标签。<br>
+  2.  选择【布局】-->【选择一个布局】-->【Fruchterman Reingold】 ，进行相关算法运算。<br>
+  3.  选择【统计】-->【运行模块化】<br>
+  4. 外观<br>
+     4.1 选择【外观】-->【节点】+【颜色】-->【Partition】-->【Modularity Class】：利用刚刚的模块化数据进行分类。<br>
+     4.2 选择【外观】-->【节点】+【大小】-->【Ranking】-->【Weight】: 使用传入的 weight（故事数）决定节点大小。<br>
+     4.3 选择【数据资料】-->【数据表格】-->【复制数据到其它列】：将 name 列复制到 Label 列。<br>
+     4.4 选择【图】-->【T】即可显示标签。<br>
 ![overview](pic/over.png)
 ![data](pic/data.png)<br>
      4.5 在【预览】处自己调整好需要的数据后，点击【SVG/PDF/PNG】，即可导出图形。
