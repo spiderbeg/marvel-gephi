@@ -18,7 +18,6 @@
 * Windows10
 * python 3.7.2
 * mongodb
-  * marvel 返回 json 格式文件，所以选择 mongodb 方便数据存储。
 ## python库
 * marvel
 * requests
@@ -56,7 +55,7 @@
 * 查看官方新手文档(<https://gephi.org/users/quick-start/>)。
 * 本次使用输入 gephi 文档：inode.csv, iedge.csv;
 * 步骤：
-  1. 从【文件】-->【打开文件】中导入节点文件与边文件，注意导入边表格时，选择添加到【已存在的工作空间】（Append to existing workspace） 。<br>
+  1.  从【文件】-->【打开文件】中导入节点文件与边文件，注意导入边表格时，选择添加到【已存在的工作空间】（Append to existing workspace） 。<br>
   2. 【布局】-->【选择一个布局】-->【Fruchterman Reingold】 ，进行相关算法运算。<br>
   3. 【统计】-->点击【运行模块化】<br>
   4. 【外观】<br>
@@ -92,6 +91,7 @@
   ![statistic](pic/statistic.png)
 ## 一些小提议
 * 记得去官网申请一下密钥，地址在这：(<https://developer.marvel.com>)。
+* marvel 返回 json 格式文件，所以选择 mongodb 方便数据存储。
 * 注意官网说的速率是一天3000次，基本上也是足够了，但是注意 marvel 官网好像是美国时间，具体的时间不清楚，我们可能和这个接口的更新时间需要倒时差。
 * 若按照本文的代码抓取，则 mongodb 中还有漫画，系列等相关数据，有兴趣去的小伙伴也可以绘制出其他数据的图。
 * 最后，有问题敬请指出；大家玩的愉快。
