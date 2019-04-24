@@ -57,7 +57,7 @@
 * 步骤：
   1.  从【文件】-->【打开文件】中导入节点文件与边文件，注意导入边表格时，选择添加到【已存在的工作空间】（Append to existing workspace） 。<br>
   2.  选择【布局】-->【选择一个布局】-->【Fruchterman Reingold】 ，进行相关算法运算。<br>
-  3.  选择【统计】-->【运行模块化】<br>
+  3.  选择【统计】-->【运行模块化】，计算 modularity_class 数据<br>
   4. 外观<br>
      4.1 选择【外观】-->【节点】+【颜色】-->【Partition】-->【Modularity Class】：利用刚刚的模块化数据进行分类。<br>
      4.2 选择【外观】-->【节点】+【大小】-->【Ranking】-->【Weight】: 使用传入的 weight（故事数）决定节点大小。<br>
