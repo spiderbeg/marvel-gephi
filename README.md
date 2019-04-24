@@ -81,17 +81,17 @@
 
 * 部分gephi设置
 
-   * 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
+   1 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
 
-![look](pic/look.png)
+ ![look](pic/look.png)
 
-   * 【layout】（布局）设置，布局算法选择：【Fruchterman Reingold】：
+   2 【layout】（布局）设置，布局算法选择：【Fruchterman Reingold】：
 
-![layout](pic/layout.png)
+ ![layout](pic/layout.png)
 
-   * 【统计】部分-点击【运行模块化】：
+   3 【统计】部分-点击【运行模块化】：
 
-![statistic](pic/statistic.png)
+ ![statistic](pic/statistic.png)
 ## 一些小提议
 * 记得去官网申请一下密钥，地址在这：(<https://developer.marvel.com>)。
 * 注意官网说的速率是一天3000次，基本上也是足够了，但是注意marvel官网好像是美国时间，具体的时间不清楚，我们可能和这个接口的更新时间需要倒时差。
