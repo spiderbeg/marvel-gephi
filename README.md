@@ -31,11 +31,12 @@
    * 代码解释见代码内注释。
 * pic文件夹为一些图片，包括最后的效果图
 * in_data为输入的node（节点）与edge（边）文件，out_data是我操作完gephi的文件。
-  * 相关参数解释：<br>
+* 相关参数解释：<br>
    * 节点（node）也就是顶点（vertice）。两个节点相连的部分称为边（edge）。
    * inode文件中：id为英雄角色id，即图中的节点，name为英雄角色名字，id与name一一对应；weight为每一个英雄相关的所有故事数量，及节点的大小（权重）。
    * iedge文件中：source与target为源id与目标id，表示两个角色之间的联系，即图中的边，本测试中因选择无向边，所以source与target不表示方向边表示边（无向）；weight为同一故事中出现这两个英雄的故事数量，即图中边的大小（权重）。
-## 抓取步骤(建议抓取前先抓取页面进行分析，再决定抓取策略),对于后面要使用的gephi来说我们需要：一个节点文件与一个边文件；
+## 抓取步骤
+### 建议抓取前先抓取页面进行分析，再决定抓取策略),对于后面要使用的gephi来说我们需要：一个节点文件与一个边文件
 * 1、获取marvel英雄所有角色（共1491个）：store.charac(); 生成节点文件：node()<br>
   * 1.1 官网(<https://developer.marvel.com/>)注册后，获取PUBLIC_KEY和PRIVATE_KEY，同时告知限制抓取速率3000/day；抓取前可在官网测试API接口(<https://developer.marvel.com/docs>)测试，了解请求参数，及返回数据的内容。<br>
   * 1.2 store.charac() 由我这边抓取实际情况，每次最多请求100个角色信息，则15次就可抓取完成，抓取异常出现情况较少，所以出现问题就对错误处，重新抓取，直到成功。抓取成功后直接存入mongodb中，由于该文档抓取数据量很大，还包括漫画，系列的相关信息（同时也可以绘制英雄角色与其他参数的相关性图）。便不展示mongodb中的全部数据，具体返回内容可在官网测试API接口(<https://developer.marvel.com/docs>)查看。<br>
@@ -44,14 +45,13 @@
 
 * 2、抓取与英雄相关的所有故事：store_stories(); 更新节点文件：update_character()；生成边文件：edge()
   * 2.1 由节点文件（见inode.csv）可知，将99名角色相关的故事数总共有约70000多条，每次可抓100条,大概抓取700多次。此时抓取时要注意：
-   * a store_stories() 可能因为网络等问题不能一次抓取成功，这时就需要输出错误信息；首先将每一位角色信息争取抓完，抓取不完就将 角色id与当前抓取次数 保存在本地文件中，然后再根据log文件手动抓取，存入数据库。<br>
-   * b update_character() 由store_stories()抓取的故事文件可发现时间抓取故事数与前文store_charac()抓取数目不一样,以实际抓取为准，更新节点文件相关的故事数。<br>
+     a store_stories() 可能因为网络等问题不能一次抓取成功，这时就需要输出错误信息；首先将每一位角色信息争取抓完，抓取不完就将 角色id与当前抓取次数 保存在本地文件中，然后再根据log文件手动抓取，存入数据库。<br>
+     b update_character() 由store_stories()抓取的故事文件可发现时间抓取故事数与前文store_charac()抓取数目不一样,以实际抓取为准，更新节点文件相关的故事数。<br>
 ![node](pic/id-lable-w.png)<br>
-   * c edge() 最后就是边文件的获得，内容是两两角色id及相关联的故事数。<br>
+     c edge() 最后就是边文件的获得，内容是两两角色id及相关联的故事数。<br>
 ![edge](pic/s-t-w.png)
 
-先来一张gephi生成的图片<br>
-后面更精彩：<br>
+* 先来一张gephi生成的图片，故事数大于等于543的36个角色数据；后面更精彩：<br>
 ![36](pic/zn36.svg)
 ## gephi使用
 * 查看官方新手文档(<https://gephi.org/users/quick-start/>)。
@@ -71,25 +71,25 @@
 ![preview](pic/preview.png)<br>
      4.6 还有更多的【过滤】，【统计】，【预览】的相关功能，就由大家慢慢探索了。
 * 图片参考
- 节点数据：
+ * 节点数据：
 
   ![node](pic/id-lable-w.png)
 
- 边数据：
+  * 边数据：
 
   ![edge](pic/s-t-w.png)
 
 * 部分gephi设置
 
-外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
+  * 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
 
 ![look](pic/look.png)
 
-【layout】（布局）设置，布局算法选择：【Fruchterman Reingold】：
+  * 【layout】（布局）设置，布局算法选择：【Fruchterman Reingold】：
 
 ![layout](pic/layout.png)
 
-【统计】部分-点击【运行模块化】：
+  * 【统计】部分-点击【运行模块化】：
 
 ![statistic](pic/statistic.png)
 ## 一些小提议
