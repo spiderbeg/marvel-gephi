@@ -71,25 +71,25 @@
 ![preview](pic/preview.png)<br>
      4.6 还有更多的【过滤】，【统计】，【预览】的相关功能，就由大家慢慢探索了。
 * 图片参考
- * 节点数据：
+   * 节点数据：
 
   ![node](pic/id-lable-w.png)
 
-  * 边数据：
+   * 边数据：
 
   ![edge](pic/s-t-w.png)
 
 * 部分gephi设置
 
-  * 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
+   * 外观设置当在【统计】处 点击【运行模块化后】，此处出现【Modularity Class】：
 
 ![look](pic/look.png)
 
-  * 【layout】（布局）设置，布局算法选择：【Fruchterman Reingold】：
+   * 【layout】（布局）设置，布局算法选择：【Fruchterman Reingold】：
 
 ![layout](pic/layout.png)
 
-  * 【统计】部分-点击【运行模块化】：
+   * 【统计】部分-点击【运行模块化】：
 
 ![statistic](pic/statistic.png)
 ## 一些小提议
