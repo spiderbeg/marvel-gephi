@@ -84,7 +84,7 @@ class Marvel_gephi(object):
         characters.sort(key=lambda x:x[2], reverse=True) #以相关故事数量降序排列 
         m1 = characters[0:99]#挑选故事数量前99的英雄进行分析
         for m in m1: #将前100存储起来
-            with open(self.path_c, 'ab+', encoding='utf8') as f:
+            with open(self.path_c, 'a+', encoding='utf8') as f:
                 f_csv = csv.writer(f)
                 f_csv.writerow(m)
     
